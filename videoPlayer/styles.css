@@ -16,10 +16,12 @@ body {
     direction: ltr;
     overflow: hidden;
     transition: .2s all;
+    width: 400px;
 }
 
 .myplayer video {
     width: 100%;
+    cursor: pointer;
 }
 
 .myplayer .myplayer__controls {
