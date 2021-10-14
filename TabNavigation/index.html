@@ -1,27 +1,87 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>Tab Navigation</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>JavaScript</h1>
+      <h1>JavaScript</h1>
     </header>
 
-    <div>
-        <nav>
-            <ul>
-                <li><a href="#">React.js</a></li>
-                <li><a href="#">Vue.js</a></li>
-                <li><a href="#">Node.js</a></li>
-                <li><a href="#">Express.js</a></li>
-                <li><a href="#">Angular</a></li>
-            </ul>
-        </nav>
+    <div class="cd-tabs">
+      <nav>
+        <ul class="cd-tabs-navigation">
+          <li><a href="#" data-content="react" >React.js</a></li>
+          <li><a href="#" data-content="vue" class="selected">Vue.js</a></li>
+          <li><a href="#" data-content="node">Node.js</a></li>
+          <li><a href="#" data-content="express ">Express.js</a></li>
+          <li><a href="#"data-content="angular ">Angular</a></li>
+        </ul>
+      </nav>
+
+      <ul class="cd-tabs-content">
+        <li data-content="react" >
+          <p>
+            Duis consequat excepteur aute occaecat elit officia sit commodo
+            nostrud Lorem id irure enim sunt. In est in et do magna quis. Aliqua
+            fugiat et voluptate voluptate excepteur Lorem minim sit magna do et
+            qui laborum. Fugiat deserunt aliqua ullamco pariatur laboris fugiat
+            Lorem amet reprehenderit reprehenderit in cillum aute nostrud.
+            Laborum ipsum dolor officia magna adipisicing irure et aliquip id
+            nulla deserunt dolore esse eiusmod.
+          </p>
+        </li>
+        <li class="selected" data-content="vue">
+          <p>
+            Duis consequat excepteur aute occaecat elit officia sit commodo
+            nostrud Lorem id irure enim sunt. In est in et do magna quis. Aliqua
+            fugiat et voluptate voluptate excepteur Lorem minim sit magna do et
+            qui laborum. Fugiat deserunt aliqua ullamco pariatur laboris fugiat
+            Lorem amet reprehenderit reprehenderit in cillum aute nostrud.
+            Laborum ipsum dolor officia magna adipisicing irure et aliquip id
+            nulla deserunt dolore esse eiusmod.
+          </p>
+        </li>
+        <li data-content="node">
+          <p>
+            Duis consequat excepteur aute occaecat elit officia sit commodo
+            nostrud Lorem id irure enim sunt. In est in et do magna quis. Aliqua
+            fugiat et voluptate voluptate excepteur Lorem minim sit magna do et
+            qui laborum. Fugiat deserunt aliqua ullamco pariatur laboris fugiat
+            Lorem amet reprehenderit reprehenderit in cillum aute nostrud.
+            Laborum ipsum dolor officia magna adipisicing irure et aliquip id
+            nulla deserunt dolore esse eiusmod.
+          </p>
+        </li>
+        <li data-content="express">
+          <p>
+            Duis consequat excepteur aute occaecat elit officia sit commodo
+            nostrud Lorem id irure enim sunt. In est in et do magna quis. Aliqua
+            fugiat et voluptate voluptate excepteur Lorem minim sit magna do et
+            qui laborum. Fugiat deserunt aliqua ullamco pariatur laboris fugiat
+            Lorem amet reprehenderit reprehenderit in cillum aute nostrud.
+            Laborum ipsum dolor officia magna adipisicing irure et aliquip id
+            nulla deserunt dolore esse eiusmod.
+          </p>
+        </li>
+        <li data-content="angular">
+          <p>
+            Duis consequat excepteur aute occaecat elit officia sit commodo
+            nostrud Lorem id irure enim sunt. In est in et do magna quis. Aliqua
+            fugiat et voluptate voluptate excepteur Lorem minim sit magna do et
+            qui laborum. Fugiat deserunt aliqua ullamco pariatur laboris fugiat
+            Lorem amet reprehenderit reprehenderit in cillum aute nostrud.
+            Laborum ipsum dolor officia magna adipisicing irure et aliquip id
+            nulla deserunt dolore esse eiusmod.
+          </p>
+        </li>
+      </ul>
     </div>
 
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>
