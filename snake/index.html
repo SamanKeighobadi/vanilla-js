@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanke Game  </title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .game-bord{
+        text-align: center;
+    }
+    .score{
+        font-size: 2.5rem;
+        font-family: sans-serif;
+    }
+    #gameCanvas {
+        border: 1px solid black;
+    }
+</style>
+<body>
+    <div class="game-bord">
+        <div class="score">0</div>
+        <canvas id="gameCanvas" width="250" height="250"></canvas>
+    </div>
+
+</body>
+<script src="./index.js"></script>
+</html>
