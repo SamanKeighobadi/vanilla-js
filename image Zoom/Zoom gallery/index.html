@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="vanilla-zoom.css">
+    <title>Zoom</title>
+</head>
+<body>
+    <div id="my-gallery" class="vanilla-zoom">
+        <div class="sidebar">
+            <img width="200px" src="https://images.unsplash.com/photo-1634245481966-3775f824a445?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=850&q=80" 
+            alt="image 1" class="samll-preview">
+            <img width="200px" src="https://images.unsplash.com/photo-1634232149805-1ceb5baa1a8a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80" 
+            alt="image 2" class="samll-preview">
+            <img width="200px" src="https://images.unsplash.com/photo-1624684456293-3547e85383d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80" 
+            alt="image 3" class="samll-preview">
+        </div>
+        <div class="zoomed-image"></div>
+    </div>
+    <script src="./js/vanilla-zoom.js"></script>
+    <script>
+        vanillaZoom.init("my-gallery")
+    </script>
+</body>
+</html>
